@@ -1,0 +1,11 @@
+{
+  "name": "harness-grade",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "description": "Objective auditor for Codex and Cursor agent harnesses.",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/lib/harness/score.test.ts"
+  }
+}
